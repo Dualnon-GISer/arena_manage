@@ -1,0 +1,18 @@
+# 依赖与构建产物
+node_modules/
+dist/
+
+# 运行期缓存、状态与日志（管理器启动时自动创建）
+.cache/
+data/
+
+# 解压后的项目，各自带有独立的 .git 仓库
+projects/
+
+# 待导入的示例压缩包（只作为本地输入，不纳入版本管理）
+*.zip
+
+# 系统与编辑器杂项
+*.stackdump
+Thumbs.db
+.DS_Store
